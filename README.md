@@ -1,6 +1,6 @@
 <img src="https://ae-scripting.docsforadobe.dev/_images/objectmodel.png">
 
-List all properties
+List all properties of an item
 ```jsx
 var propsWindow = new Window("palette", "")
 var propsWindow_listBox = propsWindow.add("listbox", undefined, "")
@@ -12,27 +12,19 @@ propsWindow.show()
 Application
 
 ```jsx
+// Application
 app
-```
 
-Current project
-
-```jsx
+// Current project
 app.project
-```
 
-All compositions
-
-```jsx
+// All compositions, footages, folders
 app.project.items
-// type: Object
-// properties names: 1, 2, ..., n
-```
 
-All layers
-
-```jsx
+// All layers
 app.project.items[1].layers
+
+// !!!
 // type: Object
 // properties names: 1, 2, ..., n
 ```
