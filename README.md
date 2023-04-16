@@ -22,7 +22,7 @@ app.project.items
 // All layers
 app.project.items[1].layers
 
-// !!!
+// !!! for items and layers
 // type: Object
 // properties names: 1, 2, ..., n
 ```
