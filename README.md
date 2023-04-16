@@ -9,8 +9,6 @@ for(a in propsWindow_item) propsWindow_listBox.add("item", a)
 propsWindow.show()
 ```
 
-Application
-
 ```jsx
 // Application
 app
