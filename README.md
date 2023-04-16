@@ -1,7 +1,7 @@
 <img src="https://ae-scripting.docsforadobe.dev/_images/objectmodel.png">
 
-List all properties of an item
 ```jsx
+// List all properties of an item
 var propsWindow = new Window("palette", "")
 var propsWindow_listBox = propsWindow.add("listbox", undefined, "")
 var propsWindow_item = app.project.items[1].layers[1] // your item here
