@@ -16,11 +16,15 @@ app
 // Current project
 app.project
 
-// All compositions, footages, folders
-app.project.items
+// Compositions, footages, folders
+app.project.items // all
+app.project.items[1] // 1st
+app.project.item(1) // 1st
 
-// All layers
-app.project.items[1].layers
+// Layers
+app.project.items(1).layers // all
+app.project.items(1).layers[1] // 1st
+app.project.items(1).layer(1) // 1st
 
 // !!! for items and layers
 // type: Object
