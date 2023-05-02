@@ -30,3 +30,10 @@ app.project.items(1).layer(1) // 1st
 // type: Object
 // properties names: 1, 2, ..., n
 ```
+
+```jsx
+// get script's path
+var scriptFile = new File($.fileName)
+var scriptDirectory = scriptFile.path
+alert(scriptDirectory)
+```
